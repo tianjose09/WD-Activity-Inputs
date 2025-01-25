@@ -5,28 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/js/script.js">
+    <script src="./assets/js/script.js"></script>
 </head>
 <body>
-        <section>
-            <nav class="left">
-                <h1>CONTACT US</h1>
-                <form>
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" required>
+    <section>
+        <nav class="left">
+            <h1>CONTACT US</h1>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
 
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required>
+                <label for="message">Type your message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
 
-                    <label for="message">Message</label>
-                    <input type="message" id="message" rows="5" required>
+                <button type="submit">SEND</button>
+            </form>
+        </nav>
 
-                    <button type="submit">SEND</button>                    
-                </form>
-            </nav>
-            <nav class="image">
-                <img src="" alt="">
-            </nav>
-        </section>  
+        <div class="image">
+            <img src="./assets/img/jsimage-removebg-preview.png" alt="MY IMAGE">
+        </div>
+    </section>
 </body>
 </html>
