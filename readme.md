@@ -63,9 +63,7 @@ The project is to create a HTML, CSS, and JavaScript file for users to put feedb
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Single Page Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
